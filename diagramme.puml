@@ -1,0 +1,113 @@
+@startuml
+skinparam classAttributeIconSize 0
+title Gestion d'un élevage de dragons
+
+abstract class Dragon {
+  - nom : string
+  - age : int
+  - niveau : int
+  - sante : int
+  - faim : int
+  + Nom : string
+  + Age : int
+  + Niveau : int
+  + Sante : int
+  + Faim : int
+  + Manger(nourriture : Nourriture) : void
+  + Evoluer() : void
+  + Afficher() : void
+}
+
+class DragonFeu {
+  - temperatureFlamme : int
+  - intensiteFeu : int
+  - resistanceChaleur : int
+  + TemperatureFlamme : int
+  + IntensiteFeu : int
+  + ResistanceChaleur : int
+  + UtiliserPouvoir() : void
+  + Afficher() : void
+}
+
+class DragonEau {
+  - niveauHydratation : int
+  - vitesseNage : int
+  - resistanceFroid : int
+  + NiveauHydratation : int
+  + VitesseNage : int
+  + ResistanceFroid : int
+  + UtiliserPouvoir() : void
+  + Afficher() : void
+}
+
+class DragonPlante {
+  - energieNature : int
+  - vitesseRegeneration : int
+  - couleurEcailles : string
+  + EnergieNature : int
+  + VitesseRegeneration : int
+  + CouleurEcailles : string
+  + UtiliserPouvoir() : void
+  + Afficher() : void
+}
+
+class Nourriture {
+  - nom : string
+  - type : string
+  - valeurNutritive : int
+  - quantite : int
+  + Nom : string
+  + Type : string
+  + ValeurNutritive : int
+  + Quantite : int
+  + DiminuerQuantite() : void
+  + Afficher() : void
+}
+
+class Enclos {
+  - nom : string
+  - capaciteMax : int
+  - typeHabitat : string
+  - proprete : int
+  + Nom : string
+  + CapaciteMax : int
+  + TypeHabitat : string
+  + Proprete : int
+  + AjouterDragon(dragon : Dragon) : void
+  + RetirerDragon(dragon : Dragon) : void
+  + Afficher() : void
+}
+
+class Inventaire {
+  - capacite : int
+  - nombreElements : int
+  + Capacite : int
+  + NombreElements : int
+  + AjouterNourriture(nourriture : Nourriture) : void
+  + RetirerNourriture(nourriture : Nourriture) : void
+  + AfficherStock() : void
+}
+
+class Eleveur {
+  - nom : string
+  - niveauExperience : int
+  + Nom : string
+  + NiveauExperience : int
+  + NourrirDragon(dragon : Dragon, nourriture : Nourriture) : void
+  + AjouterDragonEnclos(dragon : Dragon, enclos : Enclos) : void
+  + AfficherElevage() : void
+}
+
+Dragon <|-- DragonFeu
+Dragon <|-- DragonEau
+Dragon <|-- DragonPlante
+
+Eleveur *-- "1" Inventaire
+Eleveur o-- "1..*" Enclos
+Enclos o-- "0..*" Dragon
+Inventaire o-- "0..*" Nourriture
+
+Eleveur ..> Dragon : nourrit
+Dragon ..> Nourriture : mange
+
+@enduml

@@ -1,0 +1,15 @@
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\bin\Debug\net10.0\ElevageDragonsApp.exe
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\bin\Debug\net10.0\ElevageDragonsApp.deps.json
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\bin\Debug\net10.0\ElevageDragonsApp.runtimeconfig.json
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\bin\Debug\net10.0\ElevageDragonsApp.dll
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\bin\Debug\net10.0\ElevageDragonsApp.pdb
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\ElevageDragonsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\ElevageDragonsApp.AssemblyInfoInputs.cache
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\ElevageDragonsApp.AssemblyInfo.cs
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\ElevageDragonsApp.csproj.CoreCompileInputs.cache
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\ElevageDragonsApp.sourcelink.json
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\ElevageDragonsApp.dll
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\refint\ElevageDragonsApp.dll
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\ElevageDragonsApp.pdb
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\ElevageDragonsApp.genruntimeconfig.cache
+C:\Users\Thana\GitHub\GestionDragons\ElevageDragonsApp\obj\Debug\net10.0\ref\ElevageDragonsApp.dll
